@@ -1,0 +1,1 @@
+mysqldump -u root -p xtream_iptvpro --ignore-table=xtream_iptvpro.client_logs --ignore-table=xtream_iptvpro.user_activity > xtream_iptvpro.`date +%d-%m-%Y`.backup.sql
